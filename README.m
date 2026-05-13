@@ -1,1 +1,0 @@
-# bank-anthos-k8
