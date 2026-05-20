@@ -45,7 +45,7 @@ spec:
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
-  Name: ledger-db
+  name: ledger-db
   labels:
     application: bank-of-anthos
     environment: development
