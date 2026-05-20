@@ -1,3 +1,5 @@
+# accounts-db is used for storing the user accounts data and other related data. It is a postgres database.
+# accouts-db , it is connected to userservice and contacts microservices.
 # configMap
 apiVersion: v1
 kind: ConfigMap

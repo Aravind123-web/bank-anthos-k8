@@ -1,3 +1,5 @@
+# ledger database is used for storing the transactions data and other related data.
+# ledger-db , it is connected to transaction-history, ledger-writer, balance-reader microservice.
 # ConfigMap
 apiVersion: v1
 kind: ConfigMap
