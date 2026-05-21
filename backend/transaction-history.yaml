@@ -119,8 +119,9 @@ spec:
           startupProbe:
             failureThreshold: 30
             httpGet:
-              path: /healthy
+              path: /ready
               port: 8080
+            initialDelaySeconds: 60
             periodSeconds: 10
           volumeMounts:
             - mountPath: /tmp
